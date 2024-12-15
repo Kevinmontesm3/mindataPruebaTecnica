@@ -1,0 +1,42 @@
+.content{
+  padding-top: 10px;
+}
+
+.row{
+  display: flex;
+  gap: 10px;
+
+
+}
+
+.actions{
+  padding: 0 25px 20px;
+
+  button {
+    flex: 1;
+  }
+}
+button{
+  margin-bottom: 20px;
+}
+.mat-dialog-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+.mat-dialog-container .mat-dialog-actions {
+  display: flex !important;
+  justify-content: center !important;
+}
+.buttons-save{
+  width: 100%;
+  margin: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 30px !important
+}
+h1{
+  text-align: center;
+  padding-top: 30px;
+}

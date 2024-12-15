@@ -1,0 +1,125 @@
+<div mat-dialog-title>
+  <h1>Hero Form</h1>
+</div>
+
+<form [formGroup]="heroForm">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name" placeholder="Hero Name" appUppercase>
+
+        <mat-error *ngIf="heroForm.get('name')?.hasError('required')">Name is required</mat-error>
+        <mat-error *ngIf="heroForm.get('name')?.hasError('minlength')">Name must be at least 2 characters</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Real Name</mat-label>
+        <input matInput formControlName="realName" placeholder="Real Name">
+        <mat-error *ngIf="heroForm.get('realName')?.hasError('required')">Real Name is required</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Origin</mat-label>
+        <input matInput formControlName="origin" placeholder="Hero Origin">
+        <mat-error *ngIf="heroForm.get('origin')?.hasError('required')">Origin is required</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-label>Powers</mat-label>
+      <div formArrayName="powers">
+        <div *ngFor="let power of powersControls; let i = index" class="row">
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Power {{ i + 1 }}</mat-label>
+            <input matInput [formControlName]="i" placeholder="Power">
+          </mat-form-field>
+          <button mat-icon-button color="warn" (click)="removePower(i)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+        <button mat-raised-button color="primary" (click)="addPower()">Add Power</button>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>City</mat-label>
+        <input matInput formControlName="city" placeholder="City">
+        <mat-error *ngIf="heroForm.get('city')?.hasError('required')">City is required</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Team</mat-label>
+        <input matInput formControlName="team" placeholder="Team (Optional)">
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>First Appearance</mat-label>
+        <input matInput formControlName="firstAppearance" placeholder="YYYY-MM-DD" type="date">
+        <mat-error *ngIf="heroForm.get('firstAppearance')?.hasError('required')">First Appearance is
+          required</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-label>Weaknesses</mat-label>
+      <div formArrayName="weaknesses">
+        <div *ngFor="let weakness of weaknessesControls; let i = index" class="row">
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Weakness {{ i + 1 }}</mat-label>
+            <input matInput [formControlName]="i" placeholder="Weakness">
+          </mat-form-field>
+          <button mat-icon-button color="warn" (click)="removeWeakness(i)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+        <button mat-raised-button color="primary" (click)="addWeakness()">Add Weakness</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <mat-label>Enemies</mat-label>
+      <div formArrayName="enemies">
+        <div *ngFor="let enemy of enemiesControls; let i = index" class="row">
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Enemy {{ i + 1 }}</mat-label>
+            <input matInput [formControlName]="i" placeholder="Enemy" >
+          </mat-form-field>
+          <button mat-icon-button color="warn" (click)="removeEnemy(i)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+        <button mat-raised-button color="primary" (click)="addEnemy()">Add Enemy</button>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Image URL</mat-label>
+        <input matInput formControlName="image" placeholder="Image URL">
+        <mat-error *ngIf="heroForm.get('image')?.hasError('required')">Image URL is required</mat-error>
+        <mat-error *ngIf="heroForm.get('image')?.hasError('pattern')">Must be a valid image URL</mat-error>
+      </mat-form-field>
+    </div>
+  </div>
+
+
+
+  <div class="buttons-save">
+    <button mat-raised-button color="primary" [disabled]="heroForm.invalid" (click)="saveHero()">{{getTitle()}}
+    </button>
+    <button mat-raised-button mat-dialog-close color="warn" (click)="cancel()">Cancel</button>
+  </div>
+
+</form>

@@ -1,0 +1,484 @@
+[
+  {
+    "id": 1,
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fchapulin-colorado-multimexo.png?alt=media&token=7efd3f67-02a3-4047-8ba6-02eaa3164b0f",
+    "name": "Chapulín Colorado",
+    "realName": "El Chapulín",
+    "origin": "Héroe accidental con corazón noble",
+    "powers": [
+      "Astucia",
+      "Chipote Chillón",
+      "Chiquitolina"
+    ],
+    "weaknesses": [
+      "Miedo ocasional",
+      "Falta de fuerza física"
+    ],
+    "city": "Ciudad de México",
+    "team": "Ninguno",
+    "firstAppearance": "1970-11-01",
+
+    "enemies": [
+      "El Tripaseca",
+      "El Cuajinais"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Iron Man",
+    "image" : "https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fironman.jpg?alt=media&token=659e286b-becc-41b7-9d07-c94bf846fe5b",
+    "realName": "Tony Stark",
+    "origin": "Genio millonario tras un accidente mortal",
+    "powers": [
+      "Traje de armadura avanzado",
+      "Inteligencia tecnológica",
+      "Riqueza"
+    ],
+    "weaknesses": [
+      "Dependencia del reactor Arc",
+      "Problemas de salud"
+    ],
+    "city": "Malibu",
+    "team": "Los Vengadores",
+    "firstAppearance": "1963-03-01",
+
+    "enemies": [
+      "Mandarín",
+      "Ultrón"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Wolverine",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2FWolverine.webp?alt=media&token=ad631566-d062-419e-9e60-88263058f6fc",
+    "realName": "Logan",
+    "origin": "Mutante con un pasado misterioso",
+    "powers": [
+      "Regeneración",
+      "Esqueletos de adamantium",
+      "Sentidos agudos"
+    ],
+    "weaknesses": [
+      "Imanes potentes",
+      "Emociones inestables"
+    ],
+    "city": "Nómada",
+    "team": "X-Men",
+    "firstAppearance": "1974-10-01",
+
+    "enemies": [
+      "Sabretooth",
+      "Magneto"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Superman",
+    "image": "https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fsuperman.jpeg?alt=media&token=ccb0e98c-41b1-4f9e-917b-9867d2a63fb1",
+    "realName": "Clark Kent",
+    "origin": "Último hijo de Krypton",
+    "powers": [
+      "Super fuerza",
+      "Vuelo",
+      "Visión láser",
+      "Invulnerabilidad"
+    ],
+    "weaknesses": [
+      "Kryptonita",
+      "Magia"
+    ],
+    "city": "Metrópolis",
+    "team": "Liga de la Justicia",
+    "firstAppearance": "1938-06-01",
+
+    "enemies": [
+      "Lex Luthor",
+      "Doomsday"
+    ]
+  },
+  {
+    "id": 5,
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fspider.jpeg?alt=media&token=222718df-cf81-4d9b-89c7-1e3564d9bbe0",
+    "name": "Spider-Man",
+    "realName": "Peter Parker",
+    "origin": "Mordido por una araña radiactiva",
+    "powers": [
+      "Fuerza aumentada",
+      "Agilidad",
+      "Sentido arácnido",
+      "Telarañas"
+    ],
+    "weaknesses": [
+      "Vida personal caótica",
+      "Responsabilidades familiares"
+    ],
+    "city": "Nueva York",
+    "team": "Ninguno",
+    "firstAppearance": "1962-08-01",
+
+    "enemies": [
+      "Duende Verde",
+      "Doctor Octopus"
+    ]
+  },
+  {
+    "id": 6,
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fmujermaravilla.jpg?alt=media&token=4753ef08-350f-40b8-b561-bd4ade3eb7a6",
+    "name": "Mujer Maravilla",
+    "realName": "Diana Prince",
+    "origin": "Princesa amazona hija de Zeus",
+    "powers": [
+      "Super fuerza",
+      "Vuelo",
+      "Lazo de la verdad"
+    ],
+    "weaknesses": [
+      "Ataduras mágicas",
+      "Compasión excesiva"
+    ],
+    "city": "Themyscira",
+    "team": "Liga de la Justicia",
+    "firstAppearance": "1941-12-01",
+
+    "enemies": [
+      "Ares",
+      "Cheetah"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Hulk",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fhulk.jpg?alt=media&token=431759b1-be6f-470e-a7b2-98a866f28f3e",
+    "realName": "Bruce Banner",
+    "origin": "Accidente con radiación gamma",
+    "powers": [
+      "Fuerza descomunal",
+      "Regeneración",
+      "Durabilidad"
+    ],
+    "weaknesses": [
+      "Falta de control",
+      "Estado emocional"
+    ],
+    "city": "Nómada",
+    "team": "Los Vengadores",
+    "firstAppearance": "1962-05-01",
+
+    "enemies": [
+      "Abominación",
+      "Thunderbolt Ross"
+    ]
+  },
+  {
+    "id": 8,
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fcaptain-america-logo-art-design-600nw-2272933579.webp?alt=media&token=c77d76b7-9535-4d45-916b-19873df57c76",
+    "name": "Capitán América",
+    "realName": "Steve Rogers",
+    "origin": "Súper soldado creado en la Segunda Guerra Mundial",
+    "powers": [
+      "Fuerza aumentada",
+      "Resistencia",
+      "Habilidad táctica"
+    ],
+    "weaknesses": [
+      "Mortalidad humana",
+      "Valores tradicionales"
+    ],
+    "city": "Nueva York",
+    "team": "Los Vengadores",
+    "firstAppearance": "1941-03-01",
+
+    "enemies": [
+      "Craneo Rojo",
+      "Winter Soldier"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Batman",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fbatman.jpg?alt=media&token=e8247592-e1ed-4a7e-a17a-e4b5b1de321d",
+    "realName": "Bruce Wayne",
+    "origin": "Multimillonario inspirado por la venganza",
+    "powers": [
+      "Inteligencia táctica",
+      "Artes marciales",
+      "Gadgets avanzados"
+    ],
+    "weaknesses": [
+      "Humanidad",
+      "Soledad"
+    ],
+    "city": "Ciudad Gótica",
+    "team": "Liga de la Justicia",
+    "firstAppearance": "1939-05-01",
+
+    "enemies": [
+      "Joker",
+      "Bane"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Robin",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Frobin.jpeg?alt=media&token=a03961db-5deb-4c28-937d-643587a8d02a",
+    "realName": "Dick Grayson",
+    "origin": "Hijo de acróbatas circenses",
+    "powers": [
+      "Agilidad",
+      "Habilidad en combate",
+      "Trabajo en equipo"
+    ],
+    "weaknesses": [
+      "Falta de experiencia",
+      "Humanidad"
+    ],
+    "city": "Ciudad Gótica",
+    "team": "Liga de la Justicia Juvenil",
+    "firstAppearance": "1940-04-01",
+
+    "enemies": [
+      "Two-Face",
+      "Deathstroke"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Deadpool",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fdead%20pool.jpg?alt=media&token=c7d9dedc-288b-472d-8158-391cd643fb6f",
+    "realName": "Wade Wilson",
+    "origin": "Experimento fallido del programa Arma X",
+    "powers": [
+      "Regeneración extrema",
+      "Inmortalidad",
+      "Habilidad en combate"
+    ],
+    "weaknesses": [
+      "Desquicio mental",
+      "Impulsividad"
+    ],
+    "city": "Nueva York",
+    "team": "X-Force",
+    "firstAppearance": "1991-02-01",
+
+    "enemies": [
+      "Ajax",
+      "T-Ray"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Thor",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2FThor.jpg?alt=media&token=e19cb374-0539-4028-8fad-97df91931856",
+    "realName": "Thor Odinson",
+    "origin": "Hijo de Odín y príncipe de Asgard",
+    "powers": [
+      "Fuerza divina",
+      "Control del trueno",
+      "Mjolnir"
+    ],
+    "weaknesses": [
+      "Orgullo",
+      "Dependencia de Mjolnir"
+    ],
+    "city": "Asgard",
+    "team": "Los Vengadores",
+    "firstAppearance": "1962-08-01",
+
+    "enemies": [
+      "Loki",
+      "Surtur"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Doctor Strange",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fdoctor-strange-in-the-multiverse-of-madness-movie-masterpiece-hot-toys2.jpg?alt=media&token=301d1403-2675-4e54-86a5-89e86948dafe",
+    "realName": "Stephen Strange",
+    "origin": "Neurocirujano convertido en hechicero supremo",
+    "powers": [
+      "Magia",
+      "Manipulación del tiempo",
+      "Teletransportación"
+    ],
+    "weaknesses": [
+      "Dependencia del Ojo de Agamotto",
+      "Arrogancia"
+    ],
+    "city": "Nueva York",
+    "team": "Defensores",
+    "firstAppearance": "1963-07-01",
+
+    "enemies": [
+      "Dormammu",
+      "Barón Mordo"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Black Widow",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fblackwindow.webp?alt=media&token=e349b9f7-db24-4f5c-b1a7-5e2f107b240e",
+    "realName": "Natasha Romanoff",
+    "origin": "Espía entrenada en la KGB",
+    "powers": [
+      "Combate cuerpo a cuerpo",
+      "Espionaje",
+      "Agilidad"
+    ],
+    "weaknesses": [
+      "Humanidad",
+      "Pasado oscuro"
+    ],
+    "city": "Nueva York",
+    "team": "Los Vengadores",
+    "firstAppearance": "1964-04-01",
+
+    "enemies": [
+      "Taskmaster",
+      "Hydra"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Scarlet Witch",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fscarlet-witch-bruja-escarlata-marvel-gallery-diorama.jpg?alt=media&token=37264c32-e820-42fb-92c1-855add17eae4",
+    "realName": "Wanda Maximoff",
+    "origin": "Mutante con habilidades mágicas",
+    "powers": [
+      "Manipulación de la realidad",
+      "Magia del caos",
+      "Telequinesis"
+    ],
+    "weaknesses": [
+      "Control emocional",
+      "Fatiga mental"
+    ],
+    "city": "Nómada",
+    "team": "Los Vengadores",
+    "firstAppearance": "1964-03-01",
+
+    "enemies": [
+      "Ultrón",
+      "Thanos"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Ant-Man",
+    "image": "https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2FAnt-Man-Marvel-lanza-un-nuevo-poster-protagonizado-por-Paul-Rudd.jpg?alt=media&token=b6137371-3447-4680-9f0c-10cf5b0620ab",
+    "realName": "Scott Lang",
+    "origin": "Ladrón reformado con traje de tamaño cambiante",
+    "powers": [
+      "Cambio de tamaño",
+      "Control de hormigas",
+      "Inteligencia táctica"
+    ],
+    "weaknesses": [
+      "Humanidad",
+      "Falta de experiencia"
+    ],
+    "city": "San Francisco",
+    "team": "Los Vengadores",
+    "firstAppearance": "1979-01-01",
+
+    "enemies": [
+      "Yellowjacket",
+      "Ghost"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Black Panther",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fblackpanter.jpg?alt=media&token=c3a63fb1-c9a8-468a-8101-7e630381b52c",
+    "realName": "T'Challa",
+    "origin": "Rey de Wakanda con acceso al vibranium",
+    "powers": [
+      "Fuerza aumentada",
+      "Agilidad",
+      "Tecnología avanzada"
+    ],
+    "weaknesses": [
+      "Responsabilidades reales",
+      "Humanidad"
+    ],
+    "city": "Wakanda",
+    "team": "Los Vengadores",
+    "firstAppearance": "1966-07-01",
+
+    "enemies": [
+      "Killmonger",
+      "Ulysses Klaue"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Hawkeye",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2FHawkeye.jpeg?alt=media&token=80c8bc95-69fe-4b5f-9a66-8581cf7190fa",
+    "realName": "Clint Barton",
+    "origin": "Arquero entrenado desde joven",
+    "powers": [
+      "Precisión extrema",
+      "Combate cuerpo a cuerpo",
+      "Tácticas avanzadas"
+    ],
+    "weaknesses": [
+      "Humanidad",
+      "Dependencia del equipo"
+    ],
+    "city": "Nueva York",
+    "team": "Los Vengadores",
+    "firstAppearance": "1964-09-01",
+
+    "enemies": [
+      "Taskmaster",
+      "Hydra"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Star-Lord",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2Fstarloot.jpeg?alt=media&token=fa9aa079-5e57-4158-862b-a5439dc3cd43",
+    "realName": "Peter Quill",
+    "origin": "Hijo de un Celestial y un humano",
+    "powers": [
+      "Combate avanzado",
+      "Estrategia táctica",
+      "Armas de alta tecnología"
+    ],
+    "weaknesses": [
+      "Impulsividad",
+      "Arrogancia"
+    ],
+    "city": "Espacio",
+    "team": "Guardianes de la Galaxia",
+    "firstAppearance": "1976-01-01",
+
+    "enemies": [
+      "Ronan el Acusador",
+      "Ego"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Gamora",
+    "image":"https://firebasestorage.googleapis.com/v0/b/polapp-289c9.appspot.com/o/hros%2FGamora-02.jpg?alt=media&token=3771fefe-2c24-4277-9281-138d63cb1e27",
+    "realName": "Gamora Zen Whoberi Ben Titan",
+    "origin": "Hija adoptiva de Thanos entrenada como asesina",
+    "powers": [
+      "Fuerza mejorada",
+      "Habilidad en combate",
+      "Resistencia avanzada"
+    ],
+    "weaknesses": [
+      "Relaciones conflictivas",
+      "Pasado oscuro"
+    ],
+    "city": "Espacio",
+    "team": "Guardianes de la Galaxia",
+    "firstAppearance": "1975-06-01",
+
+    "enemies": [
+      "Thanos",
+      "Ronan el Acusador"
+    ]
+  }
+]

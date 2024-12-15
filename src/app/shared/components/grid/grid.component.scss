@@ -1,0 +1,13 @@
+.imgTable{
+  width: 65px; height: 65px;
+}
+.rowHero{
+  cursor: pointer;
+}
+@media (max-width: 695px) {
+  .mat-column-id,
+  .mat-column-city,
+  .mat-column-origin {
+    display: none;
+  }
+}

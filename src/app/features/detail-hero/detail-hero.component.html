@@ -1,0 +1,41 @@
+<div class="hero-detail">
+  <div class="hero-header">
+    <img
+      [src]=hero()?.image
+      class="hero-image"
+    />
+  </div>
+  <div class="hero-info">
+    <h1>{{hero()?.name}}</h1>
+    <p><strong>Nombre real:</strong> {{hero()?.realName}}</p>
+    <p><strong>Origen:</strong> {{hero()?.origin}}</p>
+
+    <div>
+      <strong>Poderes:</strong>
+      <ul>
+        @for (power of hero()?.powers; track power) {
+          <li >{{ power }}</li>}
+      </ul>
+    </div>
+
+    <div>
+      <strong>Debilidades:</strong>
+      <ul>
+        @for (weakness of hero()?.weaknesses; track weakness) {
+        <li >{{ weakness }}</li>}
+      </ul>
+    </div>
+
+    <p><strong>Ciudad:</strong> {{hero()?.city}}</p>
+    <p><strong>Equipo:</strong> {{hero()?.team}}</p>
+    <p><strong>Primera aparición:</strong> {{hero()?.firstAppearance}}</p>
+
+    <div>
+      <strong>Enemigos:</strong>
+      <ul>
+        @for (enemy of hero()?.enemies; track enemy) {
+          <li >{{ enemy }}</li>}
+      </ul>
+    </div>
+  </div>
+</div>
